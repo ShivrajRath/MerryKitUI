@@ -1,0 +1,29 @@
+{
+  "name": "MerryKitUI",
+  "version": "0.0.0",
+  "authors": [
+    "Shivraj Rath <shivrajrath@gmail.com>"
+  ],
+  "description": "Covers Merry Kit UI elements, style guide, best practices",
+  "main": "index.html",
+  "keywords": [
+    "MerryKit",
+    "UI",
+    "LESS",
+    "Flat"
+  ],
+  "license": "ISC",
+  "homepage": "http://www.merrykit.com",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.2.0",
+    "font-awesome": "~4.2.0",
+    "Bootflat": "~2.0.4"
+  }
+}

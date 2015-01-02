@@ -25,6 +25,12 @@
  * TRUMPS
  * Text.................Text helpers.
  */
+/******************************************************************************
+File: font.less
+Author: Shivraj Rath
+
+Fonts for the project
+******************************************************************************/
 @font-face {
   font-family: bebasbold;
   src: url(../fonts/bebas/BebasNeue Bold.otf);
@@ -33,25 +39,33 @@
   font-family: opensansRegular;
   src: url(../fonts/Open_Sans/OpenSans-Regular.ttf);
 }
-/**
- * This covers all the used variables across the app
- */
-/**
+/*---------------------------------------------------
+    LESS Elements 0.9
+  ---------------------------------------------------
+    A set of useful LESS mixins
+    More info at: http://lesselements.com
+  ---------------------------------------------------*/
+/******************************************************************************
+File: variables.less
+Author: Shivraj Rath
+
+This covers all the used variables across the app.
+******************************************************************************/
+/******************************************************************************
  * COLORS
- */
-/**
+******************************************************************************/
+/******************************************************************************
  * PIXELS
- */
-/**
- * This file contains all box model generic styles
- */
-/*
-////////////////////////////////////////////
+******************************************************************************/
+/******************************************************************************
+File: spacing.less
+Author: Shivraj Rath
 
-
-============================
+This file contains all box model generic styles.
+******************************************************************************/
+/******************************************************************************
 Spacing Adjusting Classes:
-===========================*/
+******************************************************************************/
 .mt0 {
   margin-top: 0;
 }
@@ -546,7 +560,11 @@ Spacing Adjusting Classes:
   margin-left: -40px !important;
   margin-right: -40px !important;
 }
-/*global height*/
+/*height with percentage value*/
+.gbl_full-height {
+  height: 100%;
+}
+/*global height in pixels*/
 .gbl_height-50 {
   height: 50px;
 }
@@ -668,113 +686,39 @@ Spacing Adjusting Classes:
   line-height: 50px;
   height: 50px;
 }
-/**
- * This file contains app specific component styles. 
- * All the styles mention here confirms to the styleguide
- */
+/******************************************************************************
+File: main.less 
+Author: Shivraj Rath
+
+Contains component specific styles.
+Kindly confirm with the styleguide.
+******************************************************************************/
+body,
+html {
+  height: 100%;
+}
 body {
   font-family: opensansRegular;
-  background-color: #434a54;
+  background-color: #f5f7fa;
 }
-.mkit {
-  background-color: #e6e9ed;
-}
-.mkit hr {
-  border-top: 1px solid #656d78;
-}
-.mkit .colgrassdepth {
-  color: #8cc152;
-}
-.mkit .logo {
-  font-size: 64px;
-  font-family: 'bebasbold';
-  text-transform: uppercase;
-  margin: 30px 0;
-}
-.mkit .logo .logofirstletter {
-  font-size: 96px;
-}
-.mkit .logo-small {
-  font-size: 40px;
-  font-family: 'bebasbold';
-  text-transform: uppercase;
-  margin: 30px 0;
-}
-.mkit .logo-small.xs {
-  background-color: #fff;
-  width: 60px;
-  text-align: center;
-  width: 90px;
-  height: 90px;
-  padding-top: 20px;
-  border-radius: 50%;
-}
-.mkit .searchbox {
-  background-color: #ffffff;
-}
-.mkit .searchbox input,
-.mkit .searchbox .btn {
-  border: none;
-  text-transform: uppercase;
-  background-color: #ffffff;
-}
-.mkit .searchbox .btn:hover,
-.mkit .searchbox .btn:active {
-  background-color: #ffffff;
-  color: #3bafda;
-}
-.mkit .searchbox + div {
-  background-color: #ffffff;
-  border-top: 1px solid #e6e9ed;
-  overflow: hidden;
-}
-.mkit .searchbox + div div {
-  text-transform: uppercase;
-  padding: 15px;
-}
-.mkit .border {
-  margin: 25px 0px;
-  border-bottom: 1px solid #656d78;
-}
-.mkit .pdb {
-  padding: 50px;
-  background-color: #ffffff;
-}
-.mkit .pdb .title,
-.mkit .pdb .seller {
-  text-transform: uppercase;
-}
-.mkit .pdb .pdb-image,
-.mkit .pdb .pdb-summary {
-  height: 40%;
-}
-.mkit .pdb .pdb-image img {
+img {
   width: 100%;
-  max-height: 400px;
-  max-width: 400px;
 }
-.mkit .addtocart {
-  padding: 1px 0;
-  display: block;
-  text-align: center;
+.mkit .navlink-section nav div {
+  padding: 10px 0 10px 55px;
+  margin: 0 -15px;
+  cursor: pointer;
 }
-.mkit .socialicons a {
-  border: 1px solid #656d78;
-  padding: 10px 15px;
-  margin-right: 20px;
-  text-transform: capitalize;
+.mkit .navlink-section nav div:hover {
+  background-color: #d2ebb7;
 }
-.mkit .socialicons a:hover {
-  background-color: #e6e9ed;
-  color: #656d78;
+.mkit .product-list-section {
+  background-color: #ffffff;
+  -webkit-box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  border-right: 1px solid #e6e9ed;
 }
-.mkit .opacity-el {
-  opacity: 0.4;
-}
-.mkit .opacity-el:hover {
-  opacity: 1;
-}
-.mkit .strike-el {
-  opacity: 0.4;
-  text-decoration: line-through;
+.mkit .main-section {
+  background-color: #ffffff;
 }

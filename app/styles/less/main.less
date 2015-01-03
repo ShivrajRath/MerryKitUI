@@ -1,10 +1,28 @@
+// main: app.less
 /******************************************************************************
 File: main.less 
 Author: Shivraj Rath
 
 Contains component specific styles.
-Kindly confirm with the styleguide.
+Kindly keep all styles confirmed with the styleguide.
 ******************************************************************************/
+
+/**
+ * Scroll bar for the UI
+ */
+::-webkit-scrollbar {
+    width: 8px;
+}
+::-webkit-scrollbar-track {
+    background-color: @greylight-light;
+}
+::-webkit-scrollbar-thumb {
+    .rounded(6px);
+    background-color: lighten(@greymedium-dark, 20%);
+}
+::-webkit-scrollbar-thumb:hover {
+    background-color: @greymedium-light;
+}
 
 body, html {
     height: 100%;
@@ -13,7 +31,7 @@ body {
     font-family: opensansRegular;
     background-color: @greylight-light;
 }
-img{
+img {
     width: 100%;
 }
 .mkit {
@@ -33,8 +51,79 @@ img{
         background-color: @white;
         .drop-shadow(0, 10px, 10px);
         border-right: 1px solid @greylight-dark;
+        cursor: pointer;
+        overflow: scroll;
+        .product-summary {
+            padding: 15px;
+            border-bottom: 1px solid @greylight-dark;
+            &:first-child {
+                padding: 0 15px 15px 15px;
+            }
+        }
     }
-    .main-section{
+    .main-section {
         background-color: @white;
     }
 }
+
+//.product-list-section::-webkit-scrollbar {
+//    height: 18px;
+//    width: 18px
+//}
+//
+//.product-list-section::-webkit-scrollbar:disabled {
+//    display: none
+//}
+//
+//.product-list-section::-webkit-scrollbar-button {
+//    background-color: #fafafa;
+//    background-repeat: no-repeat;
+//    cursor: pointer
+//}
+//
+//.product-list-section::-webkit-scrollbar-button:horizontal:increment,.product-list-section::-webkit-scrollbar-button:horizontal:decrement,.product-list-section::-webkit-scrollbar-button:horizontal:increment:hover,.product-list-section::-webkit-scrollbar-button:horizontal:decrement:hover,.product-list-section::-webkit-scrollbar-button:vertical:increment,.product-list-section::-webkit-scrollbar-button:vertical:decrement,.product-list-section::-webkit-scrollbar-button:vertical:increment:hover,.product-list-section::-webkit-scrollbar-button:vertical:decrement:hover {
+//    background-position: center;
+//    height: 18px;
+//    width: 18px
+//}
+//
+//.product-list-sectionLight::-webkit-scrollbar-button {
+//    display: none
+//}
+//
+//.product-list-section::-webkit-scrollbar-track {
+//    background-color: #fafafa
+//}
+//
+//.product-list-sectionLight::-webkit-scrollbar-track {
+//    background-color: #0072c6
+//}
+//
+//.product-list-section::-webkit-scrollbar-thumb {
+//    border-radius: 9px;
+//    border: solid 6px #fafafa;
+//    background-color: #cdd4d4
+//}
+//
+//.product-list-sectionLight::-webkit-scrollbar-thumb {
+//    border-color: #0072c6;
+//    background-color: #95b1c1
+//}
+//
+//.product-list-section::-webkit-scrollbar-thumb:vertical {
+//    min-height: 50px
+//}
+//
+//.product-list-section::-webkit-scrollbar-thumb:horizontal {
+//    min-width: 50px
+//}
+//
+//.product-list-section::-webkit-scrollbar-thumb:hover {
+//    border-radius: 9px;
+//    border: solid 6px #fafafa;
+//    background-color: #98a3a6
+//}
+//
+//.product-list-section::-webkit-scrollbar-corner {
+//    background-color: #fafafa
+//}

@@ -1,0 +1,37 @@
+// main: app.less
+/******************************************************************************
+File: global.less 
+Author: Shivraj Rath
+
+All the global styles, irrespective of classes/tags are here.
+******************************************************************************/
+
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+::-webkit-scrollbar-track {
+    background-color: @greylight-light;
+}
+::-webkit-scrollbar-thumb {
+    .rounded(6px);
+    background-color: lighten(@greymedium-dark, 20%);
+}
+::-webkit-scrollbar-thumb:hover {
+    background-color: @greymedium-light;
+}
+
+body, html {
+    height: 100%;
+}
+body {
+    font-family: opensansRegular;
+    background-color: @greylight-light;
+}
+img {
+    width: 100%;
+}
+
+small{
+     display: block;   
+}

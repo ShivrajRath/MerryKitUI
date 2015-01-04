@@ -10,7 +10,6 @@ This covers all the used variables across the app.
  * COLORS
 ******************************************************************************/
 
-@primary: #3bafda;
 @white: #fff;
 @black: #000;
 @grey: #ccc;
@@ -27,6 +26,13 @@ This covers all the used variables across the app.
 @aqua-dark: #3BAFDA;
 @grass-light: #A0D468;
 @grass-dark: #8CC152;
+
+
+@primary-dark: @grass-dark;
+@primary-light: @grass-light;
+@primary-darker: darken(@grass-dark, 20%);
+@primary-lighter: lighten(@grass-light, 20%);
+
 /******************************************************************************
  * PIXELS
 ******************************************************************************/

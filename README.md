@@ -7,6 +7,7 @@
 * https://assembly.com/discover
 * http://feedly.com/#explore%2F%23tech
 * http://www.charted.co/
+* http://outlook.com
 
 ## UI Inspiration
 * https://medium.com/@erikdkennedy/7-rules-for-creating-gorgeous-ui-part-1-559d4e805cda

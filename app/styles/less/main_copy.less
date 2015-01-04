@@ -1,4 +1,4 @@
-//out = null
+//out: null
 
 /******************************************************************************
 File: main.less 
@@ -9,129 +9,129 @@ Kindly confirm with the styleguide.
 ******************************************************************************/
 
 
-body, html, .mkit {
-    height: 100%;
-}
-body {
-    font-family: opensansRegular;
-    color: @white;
-    background-color: @black;
-    .gradient(#696969, #414A4C, #AAB2BD);
-    padding: 30px;
-}
-
-/**
- * Scroll bar for the UI
- */
-::-webkit-scrollbar {
-    width: 12px;
-}
-::-webkit-scrollbar-track {
-    background-color: @grey-light;
-    border-left: 1px solid @grey;
-}
-::-webkit-scrollbar-thumb {
-    background-color: @aqua-light;
-}
-::-webkit-scrollbar-thumb:hover {
-    background-color: @aqua-dark;
-}
-
-.mkit {
-    background-color: @white;
-
-    hr {
-        border-top: 1px solid @linecolor;
-    }
-    .colgrassdepth {
-        color: @grass-dark;
-    }
-    .logo {
-        font-size: 64px;
-        font-family: 'bebasbold';
-        text-transform: uppercase;
-        margin: 30px 0;
-        .logofirstletter {
-            font-size: 96px;
-        }
-    }
-    .logo-small {
-        font-size: 40px;
-        font-family: 'bebasbold';
-        text-transform: uppercase;
-        margin: 30px 0;
-        &.xs {
-            background-color: #fff;
-            width: 60px;
-            text-align: center;
-            width: 90px;
-            height: 90px;
-            padding-top: 20px;
-            border-radius: 50%;
-        }
-    }
-    .searchbox {
-        background-color: @background-el;
-        input, .btn {
-            border: none;
-            text-transform: uppercase;
-            background-color: @background-el;
-        }
-        .btn:hover, .btn:active {
-            background-color: @background-el;
-            color: @primary;
-        }
-        + div {
-            background-color: @background-el;
-            border-top: 1px solid @background;
-            overflow: hidden;
-            div {
-                text-transform: uppercase;
-                padding: 15px;
-            }
-        }
-    }
-    .border {
-        margin: 25px 0px;
-        border-bottom: @defaultborder;
-    }
-    .pdb {
-        padding: @defaultpadding;
-        background-color: @background-el;
-        .title, .seller {
-            text-transform: uppercase;
-        }
-        .pdb-image, .pdb-summary {
-            height: 40%;
-        }
-        .pdb-image img {
-            width: 100%;
-            max-height: 400px;
-            max-width: 400px;
-        }
-    }
-    .addtocart {
-        padding: 1px 0;
-        display: block;
-        text-align: center;
-    }
-    .socialicons a {
-        border: @defaultborder;
-        padding: 10px 15px;
-        margin-right: 20px;
-        text-transform: capitalize;
-        &:hover {
-            .background-contrast();
-        }
-    }
-    .opacity-el {
-        opacity: @defaultopacity;
-        &:hover {
-            opacity: 1;
-        }
-    }
-    .strike-el {
-        opacity: @defaultopacity;
-        text-decoration: line-through;
-    }
-}
+//body, html, .mkit {
+//    height: 100%;
+//}
+//body {
+//    font-family: opensansRegular;
+//    color: @white;
+//    background-color: @black;
+//    .gradient(#696969, #414A4C, #AAB2BD);
+//    padding: 30px;
+//}
+//
+///**
+// * Scroll bar for the UI
+// */
+//::-webkit-scrollbar {
+//    width: 12px;
+//}
+//::-webkit-scrollbar-track {
+//    background-color: @grey-light;
+//    border-left: 1px solid @grey;
+//}
+//::-webkit-scrollbar-thumb {
+//    background-color: @aqua-light;
+//}
+//::-webkit-scrollbar-thumb:hover {
+//    background-color: @aqua-dark;
+//}
+//
+//.mkit {
+//    background-color: @white;
+//
+//    hr {
+//        border-top: 1px solid @linecolor;
+//    }
+//    .colgrassdepth {
+//        color: @grass-dark;
+//    }
+//    .logo {
+//        font-size: 64px;
+//        font-family: 'bebasbold';
+//        text-transform: uppercase;
+//        margin: 30px 0;
+//        .logofirstletter {
+//            font-size: 96px;
+//        }
+//    }
+//    .logo-small {
+//        font-size: 40px;
+//        font-family: 'bebasbold';
+//        text-transform: uppercase;
+//        margin: 30px 0;
+//        &.xs {
+//            background-color: #fff;
+//            width: 60px;
+//            text-align: center;
+//            width: 90px;
+//            height: 90px;
+//            padding-top: 20px;
+//            border-radius: 50%;
+//        }
+//    }
+//    .searchbox {
+//        background-color: @background-el;
+//        input, .btn {
+//            border: none;
+//            text-transform: uppercase;
+//            background-color: @background-el;
+//        }
+//        .btn:hover, .btn:active {
+//            background-color: @background-el;
+//            color: @primary;
+//        }
+//        + div {
+//            background-color: @background-el;
+//            border-top: 1px solid @background;
+//            overflow: hidden;
+//            div {
+//                text-transform: uppercase;
+//                padding: 15px;
+//            }
+//        }
+//    }
+//    .border {
+//        margin: 25px 0px;
+//        border-bottom: @defaultborder;
+//    }
+//    .pdb {
+//        padding: @defaultpadding;
+//        background-color: @background-el;
+//        .title, .seller {
+//            text-transform: uppercase;
+//        }
+//        .pdb-image, .pdb-summary {
+//            height: 40%;
+//        }
+//        .pdb-image img {
+//            width: 100%;
+//            max-height: 400px;
+//            max-width: 400px;
+//        }
+//    }
+//    .addtocart {
+//        padding: 1px 0;
+//        display: block;
+//        text-align: center;
+//    }
+//    .socialicons a {
+//        border: @defaultborder;
+//        padding: 10px 15px;
+//        margin-right: 20px;
+//        text-transform: capitalize;
+//        &:hover {
+//            .background-contrast();
+//        }
+//    }
+//    .opacity-el {
+//        opacity: @defaultopacity;
+//        &:hover {
+//            opacity: 1;
+//        }
+//    }
+//    .strike-el {
+//        opacity: @defaultopacity;
+//        text-decoration: line-through;
+//    }
+//}

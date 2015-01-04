@@ -1,0 +1,61 @@
+// main: app.less
+
+.mkit {
+    .mkit-head{
+         .primary-header{
+            background-color: @primary-dark;
+            color: @white; 
+            .logo{
+                left: 50px;
+            }
+            .nav-links{
+                a{
+                    color: @white;
+                    line-height: 50px;
+                    padding: 0 10px;
+                    float: right;
+                    &:hover{
+                        background-color: @primary-darker;    
+                    }
+                }
+                    
+            }
+         }
+    }
+    .navlink-section {
+        nav {
+            div {
+                padding: 10px 0 10px 55px;
+                margin: 0 -15px;
+                cursor: pointer;
+                &:hover {
+                    background-color: @primary-lighter;
+                }
+                &.selected{
+                    background-color: @primary-lighter;
+                }
+            }
+        }
+    }
+    .product-list-section {
+        background-color: @white;
+        .drop-shadow(0, 10px, 10px);
+        border-right: 1px solid @greylight-dark;
+        cursor: pointer;
+        overflow: scroll;
+        .product-summary {
+            padding: 15px;
+            border-bottom: 1px solid @greylight-dark;
+            &:first-child {
+                padding: 0 15px 15px 15px;
+            }
+            &.selected{
+                border-left: 7px solid @primary-dark;
+                margin-left: -15px;   
+            }
+        }
+    }
+    .main-section {
+        background-color: @white;
+    }
+}

@@ -567,6 +567,9 @@ Spacing Adjusting Classes:
   overflow: hidden;
 }
 /*global height in pixels*/
+.gbl_height-30 {
+  height: 30px;
+}
 .gbl_height-50 {
   height: 50px;
 }
@@ -689,15 +692,11 @@ Spacing Adjusting Classes:
   height: 50px;
 }
 /******************************************************************************
-File: main.less 
+File: global.less 
 Author: Shivraj Rath
 
-Contains component specific styles.
-Kindly keep all styles confirmed with the styleguide.
+All the global styles, irrespective of classes/tags are here.
 ******************************************************************************/
-/**
- * Scroll bar for the UI
- */
 ::-webkit-scrollbar {
   width: 8px;
 }
@@ -724,12 +723,34 @@ body {
 img {
   width: 100%;
 }
+small {
+  display: block;
+}
+.mkit .mkit-head .primary-header {
+  background-color: #8cc152;
+  color: #ffffff;
+}
+.mkit .mkit-head .primary-header .logo {
+  left: 50px;
+}
+.mkit .mkit-head .primary-header .nav-links a {
+  color: #ffffff;
+  line-height: 50px;
+  padding: 0 10px;
+  float: right;
+}
+.mkit .mkit-head .primary-header .nav-links a:hover {
+  background-color: #587f2e;
+}
 .mkit .navlink-section nav div {
   padding: 10px 0 10px 55px;
   margin: 0 -15px;
   cursor: pointer;
 }
 .mkit .navlink-section nav div:hover {
+  background-color: #d2ebb7;
+}
+.mkit .navlink-section nav div.selected {
   background-color: #d2ebb7;
 }
 .mkit .product-list-section {
@@ -747,6 +768,10 @@ img {
 }
 .mkit .product-list-section .product-summary:first-child {
   padding: 0 15px 15px 15px;
+}
+.mkit .product-list-section .product-summary.selected {
+  border-left: 7px solid #8cc152;
+  margin-left: -15px;
 }
 .mkit .main-section {
   background-color: #ffffff;

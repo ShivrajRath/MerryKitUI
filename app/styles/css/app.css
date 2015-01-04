@@ -726,12 +726,26 @@ img {
 small {
   display: block;
 }
+.uppercase {
+  text-transform: uppercase;
+}
+.capitalize {
+  text-transform: capitalize;
+}
 .mkit .mkit-head .primary-header {
   background-color: #8cc152;
   color: #ffffff;
+  overflow: hidden;
 }
 .mkit .mkit-head .primary-header .logo {
   left: 50px;
+}
+.mkit .mkit-head .primary-header .searchbox .btn {
+  color: #ffffff;
+  background-color: #f6bb42;
+}
+.mkit .mkit-head .primary-header .searchbox .btn:hover {
+  background-color: #ffce54;
 }
 .mkit .mkit-head .primary-header .nav-links a {
   color: #ffffff;
@@ -761,6 +775,10 @@ small {
   border-right: 1px solid #e6e9ed;
   cursor: pointer;
   overflow: scroll;
+}
+.mkit .product-list-section .sort-product-list {
+  height: 24px;
+  font-size: 12px;
 }
 .mkit .product-list-section .product-summary {
   padding: 15px;

@@ -4,9 +4,19 @@
     .mkit-head{
          .primary-header{
             background-color: @primary-dark;
-            color: @white; 
+            color: @white;
+            overflow: hidden;
             .logo{
                 left: 50px;
+            }
+            .searchbox{
+                .btn{
+                    color: @white;
+                    background-color: @sunflower-dark;
+                    &:hover{
+                        background-color: @sunflower-light;
+                    }
+                }
             }
             .nav-links{
                 a{
@@ -43,6 +53,10 @@
         border-right: 1px solid @greylight-dark;
         cursor: pointer;
         overflow: scroll;
+        .sort-product-list{
+            height: 24px;
+            font-size: 12px;
+        }
         .product-summary {
             padding: 15px;
             border-bottom: 1px solid @greylight-dark;

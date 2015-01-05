@@ -732,6 +732,14 @@ small {
 .capitalize {
   text-transform: capitalize;
 }
+.divider {
+  margin: 20px auto;
+  width: 80%;
+  border: 1px solid #e6e9ed;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  border-radius: 50px;
+}
 .mkit .mkit-head .primary-header {
   background-color: #8cc152;
   color: #ffffff;
@@ -756,15 +764,18 @@ small {
 .mkit .mkit-head .primary-header .nav-links a:hover {
   background-color: #587f2e;
 }
-.mkit .navlink-section nav div {
+.mkit .navlink-section nav div,
+.mkit .navlink-section nav small {
   padding: 10px 0 10px 55px;
   margin: 0 -15px;
   cursor: pointer;
 }
-.mkit .navlink-section nav div:hover {
+.mkit .navlink-section nav div:hover,
+.mkit .navlink-section nav small:hover {
   background-color: #d2ebb7;
 }
-.mkit .navlink-section nav div.selected {
+.mkit .navlink-section nav div.selected,
+.mkit .navlink-section nav small.selected {
   background-color: #d2ebb7;
 }
 .mkit .product-list-section {

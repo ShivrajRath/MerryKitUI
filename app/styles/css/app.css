@@ -805,3 +805,19 @@ small {
 .mkit .main-section {
   background-color: #ffffff;
 }
+.mkit .main-section .primary-header {
+  background-color: #f6bb42;
+  margin: 0 -15px;
+}
+.mkit .main-section .primary-header nav {
+  float: right;
+}
+.mkit .main-section .primary-header nav a {
+  color: #ffffff;
+  line-height: 50px;
+  padding: 0 20px;
+}
+.mkit .main-section .secondary-header {
+  margin: 0 -15px;
+  background-color: #ffebba;
+}

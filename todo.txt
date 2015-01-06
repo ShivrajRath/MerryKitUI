@@ -5,3 +5,4 @@
 - Option to expand and collapse the navigation section
 - Add a Quick link section in navigation section
 - Add rating stars
+- Add Header to product details section (Write a review + Share + Add to wishlist)

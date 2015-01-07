@@ -12,9 +12,9 @@
             .searchbox{
                 .btn{
                     color: @white;
-                    background-color: @sunflower-dark;
+                    background-color: @secondary-dark;
                     &:hover{
-                        background-color: @sunflower-light;
+                        background-color: @secondary-light;
                     }
                 }
             }
@@ -79,13 +79,32 @@
                 a{
                     color: @white;
                     line-height: 50px;
-                    padding: 0 20px;
+                    padding: 15px 20px;
+                    &:hover{
+                        background-color: @secondary-darker;
+                    }
                 }
             }
         }
         .secondary-header{
             margin: 0 -15px;
-            background-color: @secondary-lighter;
+            background-color: @secondary-light;
+            nav{
+                float: right;
+                a, > span{
+                    color: @black;
+                    line-height: 40px;
+                    padding: 0 15px;
+                }
+            }
+        }
+        .main-content{
+            .listprice{
+                color: @rose-light;
+            }
+            .price{
+                color: @primary-darker;
+            }
         }
     }
 }

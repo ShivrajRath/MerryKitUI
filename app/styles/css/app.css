@@ -570,6 +570,9 @@ Spacing Adjusting Classes:
 .gbl_height-30 {
   height: 30px;
 }
+.gbl_height-40 {
+  height: 40px;
+}
 .gbl_height-50 {
   height: 50px;
 }
@@ -740,8 +743,11 @@ small {
   -moz-border-radius: 50px;
   border-radius: 50px;
 }
+.strike-el {
+  text-decoration: line-through;
+}
 .mkit .mkit-head .primary-header {
-  background-color: #8cc152;
+  background-color: #3bafda;
   color: #ffffff;
   overflow: hidden;
 }
@@ -750,10 +756,10 @@ small {
 }
 .mkit .mkit-head .primary-header .searchbox .btn {
   color: #ffffff;
-  background-color: #f6bb42;
+  background-color: #aab2bd;
 }
 .mkit .mkit-head .primary-header .searchbox .btn:hover {
-  background-color: #ffce54;
+  background-color: #ccd1d9;
 }
 .mkit .mkit-head .primary-header .nav-links a {
   color: #ffffff;
@@ -762,7 +768,7 @@ small {
   float: right;
 }
 .mkit .mkit-head .primary-header .nav-links a:hover {
-  background-color: #587f2e;
+  background-color: #1c7393;
 }
 .mkit .navlink-section nav div,
 .mkit .navlink-section nav small {
@@ -772,11 +778,11 @@ small {
 }
 .mkit .navlink-section nav div:hover,
 .mkit .navlink-section nav small:hover {
-  background-color: #d2ebb7;
+  background-color: #aae1f4;
 }
 .mkit .navlink-section nav div.selected,
 .mkit .navlink-section nav small.selected {
-  background-color: #d2ebb7;
+  background-color: #aae1f4;
 }
 .mkit .product-list-section {
   background-color: #ffffff;
@@ -799,14 +805,14 @@ small {
   padding: 0 15px 15px 15px;
 }
 .mkit .product-list-section .product-summary.selected {
-  border-left: 7px solid #8cc152;
+  border-left: 7px solid #3bafda;
   margin-left: -15px;
 }
 .mkit .main-section {
   background-color: #ffffff;
 }
 .mkit .main-section .primary-header {
-  background-color: #f6bb42;
+  background-color: #aab2bd;
   margin: 0 -15px;
 }
 .mkit .main-section .primary-header nav {
@@ -815,9 +821,27 @@ small {
 .mkit .main-section .primary-header nav a {
   color: #ffffff;
   line-height: 50px;
-  padding: 0 20px;
+  padding: 15px 20px;
+}
+.mkit .main-section .primary-header nav a:hover {
+  background-color: #717e90;
 }
 .mkit .main-section .secondary-header {
   margin: 0 -15px;
-  background-color: #ffebba;
+  background-color: #ccd1d9;
+}
+.mkit .main-section .secondary-header nav {
+  float: right;
+}
+.mkit .main-section .secondary-header nav a,
+.mkit .main-section .secondary-header nav > span {
+  color: #000000;
+  line-height: 40px;
+  padding: 0 15px;
+}
+.mkit .main-section .main-content .listprice {
+  color: #d770ad;
+}
+.mkit .main-section .main-content .price {
+  color: #1c7393;
 }

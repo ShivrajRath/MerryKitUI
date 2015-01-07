@@ -1,8 +1,8 @@
 - Make it adaptive. Fonts on em and width in %
 - Add a dropdown from Profile and Cart.()
-- Add the product detail page. Exclude the stuffs given already on product summary list
 - Option to expand and collapse product summary section
 - Option to expand and collapse the navigation section
-- Add a Quick link section in navigation section
 - Add rating stars
-- Add Header to product details section (Write a review + Share + Add to wishlist)
+- Pages to be added: Cart, User, Wishlist, Offers, Reviews section, rating section, about us, contact us
+- User (Address, Past orders, Reviews and Ratings, Profile)
+- Navigation section with filter

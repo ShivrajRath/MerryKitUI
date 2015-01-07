@@ -746,6 +746,9 @@ small {
 .strike-el {
   text-decoration: line-through;
 }
+.clearfix {
+  clear: both;
+}
 .mkit .mkit-head .primary-header {
   background-color: #3bafda;
   color: #ffffff;
@@ -810,6 +813,7 @@ small {
 }
 .mkit .main-section {
   background-color: #ffffff;
+  overflow: scroll;
 }
 .mkit .main-section .primary-header {
   background-color: #aab2bd;
@@ -839,9 +843,15 @@ small {
   line-height: 40px;
   padding: 0 15px;
 }
+.mkit .main-section .main-content .product-img img {
+  margin: 30px 0;
+}
 .mkit .main-section .main-content .listprice {
   color: #d770ad;
 }
 .mkit .main-section .main-content .price {
   color: #1c7393;
+}
+.mkit .main-section .main-content .price h3 {
+  margin: 30px 0;
 }

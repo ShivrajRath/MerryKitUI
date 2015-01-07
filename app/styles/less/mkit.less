@@ -71,6 +71,7 @@
     }
     .main-section {
         background-color: @white;
+        overflow: scroll;
         .primary-header{
             background-color: @secondary-dark;
             margin: 0 -15px;
@@ -99,10 +100,18 @@
             }
         }
         .main-content{
+            .product-img{
+                img{
+                    margin: 30px 0;
+                }
+            }
             .listprice{
                 color: @rose-light;
             }
             .price{
+                h3{
+                    margin: 30px 0;
+                }
                 color: @primary-darker;
             }
         }

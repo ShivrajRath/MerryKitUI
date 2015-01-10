@@ -749,6 +749,29 @@ small {
 .clearfix {
   clear: both;
 }
+.table-row {
+  display: table-row;
+}
+.table-vertical-middle-cell {
+  display: table-cell;
+  vertical-align: middle;
+  float: none;
+}
+/******************************************************************************
+All global classes for colors
+******************************************************************************/
+.color-primary-light {
+  color: #4fc1e9;
+}
+.color-success-light {
+  color: #a0d468;
+}
+.color-success-dark {
+  color: #8cc152;
+}
+.color-price {
+  color: #da4453;
+}
 .mkit .mkit-head .primary-header {
   background-color: #3bafda;
   color: #ffffff;

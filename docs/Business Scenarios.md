@@ -26,3 +26,7 @@ There are 10 products which merry kit intends to sell
   * User should be able to create custom 'Kit', add products to it
   * User should be able to his past orders
   * User can share the product on social network
+  
+## Untackled Scenarios
+  * How to handle out of stock items while they are in cart
+  

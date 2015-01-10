@@ -16,3 +16,6 @@
 #UI Elements
 
 #Classes
+
+#Supported Breakpoint
+    * Supports till 992px (for ipad landscape)

@@ -1,8 +1,8 @@
-- Make it adaptive. Fonts on em and width in %
+- Make it adaptive. Fonts on em and width in % (For 768px, javascript fix)
 - Add a dropdown from Profile and Cart.()
 - Option to expand and collapse product summary section
 - Option to expand and collapse the navigation section
-- Add rating stars
 - Pages to be added: Cart, User, Wishlist, Offers, Reviews section, rating section, about us, contact us
 - User (Address, Past orders, Reviews and Ratings, Profile)
 - Navigation section with filter
+- Fix the scroll issue on main section. Perhaps only the content needs the scroll bar and not the parent column

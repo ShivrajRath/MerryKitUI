@@ -772,6 +772,9 @@ All global classes for colors
 .color-price {
   color: #da4453;
 }
+.color-prominent {
+  color: #da4453;
+}
 .mkit .mkit-head .primary-header {
   background-color: #3bafda;
   color: #ffffff;
@@ -795,6 +798,17 @@ All global classes for colors
 }
 .mkit .mkit-head .primary-header .nav-links a:hover {
   background-color: #1c7393;
+}
+.mkit .mkit-head .ad-header {
+  line-height: 40px;
+  background-color: #aab2bd;
+}
+.mkit .mkit-head .ad-header .deal {
+  color: #ffffff;
+}
+.mkit .mkit-head .ad-header .deal a {
+  color: #ffffff;
+  padding: 0 40px;
 }
 .mkit .navlink-section nav div,
 .mkit .navlink-section nav small {

@@ -40,7 +40,7 @@
                     </div>
                     <div class="col-xs-4 nav-links">
                         <a href=""><i class="fa fa-user"></i>&nbsp;Shivraj Rath</a>
-                        <a href=""><i class="fa fa-shopping-cart"></i>&nbsp;Cart [3]</a>
+                        <a href=""><i class="fa fa-shopping-cart"></i>&nbsp;Cart [2]</a>
                         <a href=""><i class="fa fa-list-ol"></i>&nbsp;Wishlist</a>
                     </div>
                 </div>
@@ -178,7 +178,177 @@
             </nav>
         </div>
         <div class="main-section col-xs-7 gbl_full-height">
+            <!--CHECKOUT PAGE-->
+            <div class="main-content">
+                <div>
+                    <h3>Checkout</h3>
+                    <hr>
+                </div>
+                <div class="col-xs-12">
+                    <div class="checkout-section panel">
+                        <ul id="myTab1" class="nav nav-tabs nav-justified">
+                            <li class="active"><a href="#address" data-toggle="tab">Address</a>
+                            </li>
+                            <li><a href="#order-review" data-toggle="tab">Order Review</a>
+                            </li>
+                            <li><a href="#payment" data-toggle="tab">Payment</a>
+                            </li>
+                        </ul>
+                        <div id="myTabContent" class="tab-content">
+                            <div class="tab-pane fade active in" id="address">
+                                <form class="form-horizontal">
+                                    <div class="form-group">
+                                        <label for="name" class="col-sm-2 control-label">Name</label>
+                                        <div class="col-sm-10">
+                                            <input type="text" class="form-control" id="name" placeholder="Name">
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="email" class="col-sm-2 control-label">Email</label>
+                                        <div class="col-sm-10">
+                                            <input type="email" class="form-control" id="email" placeholder="Email">
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="pin-code" class="col-sm-2 control-label">Pin Code</label>
+                                        <div class="col-sm-10">
+                                            <input type="text" class="form-control" id="pin-code" placeholder="Pincode">
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="address" class="col-sm-2 control-label">Delivery Address</label>
+                                        <div class="col-sm-10">
+                                            <textarea type="text" class="form-control" id="address" placeholder="Address">
+                                            </textarea>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="land-mark" class="col-sm-2 control-label">Land Mark</label>
+                                        <div class="col-sm-10">
+                                            <input type="text" class="form-control" id="land-mark" placeholder="Land Mark">
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label for="city" class="col-sm-2 control-label">City</label>
+                                        <div class="col-sm-10">
+                                            <input type="text" class="form-control" id="city" placeholder="City">
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label for="state" class="col-sm-2 control-label">State</label>
+                                        <div class="col-sm-10">
+                                            <input type="text" class="form-control" id="state" placeholder="State">
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label for="mobile-number" class="col-sm-2 control-label">Mobile</label>
+                                        <div class="col-sm-10">
+                                            <input type="number" class="form-control" id="state" placeholder="Ten digit Mobile Number (without +91)">
+                                        </div>
+                                    </div>
+
+
+                                    <div class="form-group">
+                                        <div class="col-sm-offset-2 col-sm-10">
+                                            <div class="checkbox">
+                                                <label>
+                                                    <input type="checkbox">Add this address
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <div class="col-sm-offset-2 col-sm-10">
+                                            <button type="submit" class="btn btn-primary">Order Review</button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="tab-pane fade" id="order-review">
+                                <div class="mt10 mb10">
+                                    <div class="row table-row">
+                                        <div class="col-xs-8 table-vertical-middle-cell">
+                                            Item description
+                                        </div>
+                                        <div class="col-xs-2  table-vertical-middle-cell">
+                                            Total Price
+                                        </div>
+                                        <div class="col-xs-2  table-vertical-middle-cell">
+                                            Quantity
+                                        </div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <hr>
+                                </div>
+                                <div class="cart-section mt10 mb10">
+                                    <div class="row table-row">
+                                        <div class="col-xs-2 table-vertical-middle-cell">
+                                            <img src="http://easyforexcellence.com/wp-content/uploads/2014/06/tshirt.jpg" alt="">
+                                        </div>
+                                        <div class="col-xs-6  table-vertical-middle-cell">
+                                            <h5>Nice Green t-shirt</h5>
+                                            <small>Sameer Suppliers</small>
+                                            <small class="color-success-dark">In Stock</small>
+                                            <small>Rs. 300/unit</small>
+                                        </div>
+                                        <div class="col-xs-2  table-vertical-middle-cell">
+                                            Rs. 600
+                                        </div>
+                                        <div class="col-xs-2  table-vertical-middle-cell">
+                                            <input type="number" class="text-center" value="2" min="1" max="10">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="divider"></div>
+                                <div class="cart-section mt10 mb10">
+                                    <div class="row table-row">
+                                        <div class="col-xs-2 table-vertical-middle-cell">
+                                            <img src="http://i3.stycdn.net/images/2011/05/22/article/the-north-face/kt2000408/the-north-face-easy-t-shirt-taxi-yellow-1230.jpg" alt="">
+                                        </div>
+                                        <div class="col-xs-6  table-vertical-middle-cell">
+                                            <h5>Nice yellow t-shirt</h5>
+                                            <small>Bhuban Suppliers</small>
+                                            <small class="color-success-dark">In Stock</small>
+                                            <small>Rs. 625/unit</small>
+                                        </div>
+                                        <div class="col-xs-2  table-vertical-middle-cell">
+                                            Rs. 625
+                                        </div>
+                                        <div class="col-xs-2  table-vertical-middle-cell">
+                                            <input type="number" class="text-center" value="1" min="1" max="10">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="divider"></div>
+                                <div class="mt10 mb10">
+                                    <div class="row table-row">
+                                        <div class="col-xs-6 table-vertical-middle-cell">
+                                        </div>
+                                        <div class="col-xs-2  table-vertical-middle-cell">
+                                            Total Price
+                                        </div>
+                                        <div class="col-xs-4  table-vertical-middle-cell color-price">
+                                            <h4>Rs. 1225</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="btn btn-primary ml20 mb20">Proceed to checkout</div>
+                            </div>
+                            <div class="tab-pane fade" id="payment">
+                                <p>Etsy mixtape wayfarers, ethical wes anderson tofu before they sold out mcsweeney's organic lomo retro fanny pack lo-fi farm-to-table readymade. Messenger bag gentrify pitchfork tattooed craft beer, iphone...</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
             <!--CART PAGE-->
+            <!--
             <section class="main-content">
                 <div>
                     <h3>Cart</h3>
@@ -254,6 +424,7 @@
                 </div>
                 <div class="btn btn-primary btn-lg mt20"><i class="fa fa-check-square"></i> Proceed to checkout</div>
             </section>
+-->
 
             <!--PRODUCT DETAIL SECTION-->
             <!--
@@ -322,6 +493,8 @@
 -->
         </div>
     </div>
+    <script src="../bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="../bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
 </body>
 
 </html>

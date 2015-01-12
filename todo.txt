@@ -4,6 +4,10 @@
 - Pages to be added: Checkout, Deals/Offers, Reviews section, rating section,
 - User (Address, Past orders, Reviews and Ratings, Profile)
 - Navigation section with filter
-- Fix the scroll issue on main section. Perhaps only the content needs the scroll bar and not the parent column
+- Fix the scroll issue on main section.
 - Add a back button (Perhaps in the unused header)
 - Add another header with (BACK, WISHLIST, My Reviews, My Account)
+- Split .mkit.less into smaller managable less
+- Payment confirmation (This could take to order summary page)
+- Cart - Remove and move to wishlist link
+- Checkout page - Order review and payment

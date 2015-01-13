@@ -340,7 +340,88 @@
                                 <div class="btn btn-primary ml20 mb20">Proceed to checkout</div>
                             </div>
                             <div class="tab-pane fade" id="payment">
-                                <p>Etsy mixtape wayfarers, ethical wes anderson tofu before they sold out mcsweeney's organic lomo retro fanny pack lo-fi farm-to-table readymade. Messenger bag gentrify pitchfork tattooed craft beer, iphone...</p>
+                                <div class="panel-group panel-group-lists collapse in" id="payment-accordion">
+                                    <div class="panel">
+                                        <div class="panel-heading">
+                                            <h4 class="panel-title"><a data-toggle="collapse" data-parent="#payment-accordion" href="#credit-card-collapse" class="">CREDIT CARD</a></h4>
+                                        </div>
+                                        <div id="credit-card-collapse" class="panel-collapse collapse in">
+                                            <div class="panel-body">
+                                                <form>
+                                                    <div class="form-group">
+                                                        <label for="credit-card-no">Credit Card No</label>
+                                                        <input type="text" class="form-control" id="credit-card-no" placeholder="Credit Card No">
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <label for="security-code">Security Code</label>
+                                                        <i class="fa fa-question pointer" data-toggle="tooltip" data-placement="right" title="" data-original-title="3 digit code on back of your card"></i>
+                                                        <input type="email" class="form-control" id="security-code" placeholder="Security Code">
+                                                    </div>
+                                                    <button type="submit" class="btn btn-primary">Make Payment</button>
+                                                </form>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="panel">
+                                        <div class="panel-heading">
+                                            <h4 class="panel-title"><a data-toggle="collapse" data-parent="#payment-accordion" href="#debit-card-collapse" class="">DEBIT CARD</a></h4>
+                                        </div>
+                                        <div id="debit-card-collapse" class="panel-collapse collapse">
+                                            <div class="panel-body">
+                                                <form>
+                                                    <div class="form-group">
+                                                        <label for="debit-card-no">Debit Card No</label>
+                                                        <input type="text" class="form-control" id="debit-card-no" placeholder="Credit Card No">
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <label for="security-code">Security Code</label>
+                                                        <i class="fa fa-question pointer" data-toggle="tooltip" data-placement="right" title="" data-original-title="3 digit code on back of your card"></i>
+                                                        <input type="text" class="form-control" id="security-code" placeholder="Security Code">
+                                                    </div>
+                                                    <button type="submit" class="btn btn-primary">Make Payment</button>
+                                                </form>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="panel">
+                                        <div class="panel-heading">
+                                            <h4 class="panel-title"><a data-toggle="collapse" data-parent="#payment-accordion" href="#net-banking-collapse" class="">NET BANKING</a></h4>
+                                        </div>
+                                        <div id="net-banking-collapse" class="panel-collapse collapse">
+                                            <div class="panel-body">
+                                                <form>
+                                                    <div class="form-group">
+                                                        <select class="form-control">
+                                                            <option>Select Your bank</option>
+                                                            <option>ICICI Bank</option>
+                                                            <option>Axis Bank</option>
+                                                            <option>SBI</option>
+                                                            <option>UCO Bank</option>
+                                                        </select>
+                                                    </div>
+                                                    <button type="submit" class="btn btn-primary">Make Payment</button>
+                                                </form>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="panel">
+                                        <div class="panel-heading">
+                                            <h4 class="panel-title"><a data-toggle="collapse" data-parent="#payment-accordion" href="#cod-collapse" class="">CASH ON DELIVERY</a></h4>
+                                        </div>
+                                        <div id="cod-collapse" class="panel-collapse collapse">
+                                            <div class="panel-body">
+                                                <form>
+                                                    <div class="form-group">
+                                                        <label for="security-code">Avoiding bots</label>
+                                                        <i class="fa fa-question pointer" data-toggle="tooltip" data-placement="right" title="" data-original-title="This is to make sure no robot is doing the transaction"></i>
+                                                        <input type="text" class="form-control" id="security-code" placeholder="What is 2 multiplied by 8?">
+                                                    </div>
+                                                    <button type="submit" class="btn btn-primary">Make Payment</button>
+                                                </form>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -495,6 +576,7 @@
     </div>
     <script src="../bower_components/jquery/dist/jquery.min.js"></script>
     <script src="../bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="js/global.js"></script>
 </body>
 
 </html>

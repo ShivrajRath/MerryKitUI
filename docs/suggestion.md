@@ -1,1 +1,0 @@
-* Wishlist to look exactly like the product screen

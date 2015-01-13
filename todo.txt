@@ -1,7 +1,7 @@
 - Make it adaptive. Fonts on em and width in % (For 768px, javascript fix). Fix it for headers
 - Add a dropdown from Profile and Cart.()
 - Option to expand and collapse product summary & navigation section
-- Pages to be added: Checkout, Deals/Offers, Reviews section, rating section,
+- Pages to be added: Deals/Offers, Reviews section, rating section,
 - User (Address, Past orders, Reviews and Ratings, Profile)
 - Navigation section with filter
 - Fix the scroll issue on main section.
@@ -10,4 +10,3 @@
 - Split .mkit.less into smaller managable less
 - Payment confirmation (This could take to order summary page)
 - Cart - Remove and move to wishlist link
-- Checkout page - Order review and payment

@@ -33,11 +33,11 @@
          }
         .ad-header{
             line-height: 40px;
-            background-color: @secondary-dark;
+            background-color: @primary-lighter;
             .deal{
-                color: @white;
+                color: @black;
                 a{
-                    color: @white;
+                    color: @black;
                     padding: 0 40px;
                 }
             }
@@ -54,6 +54,10 @@
                 }
                 &.selected{
                     background-color: @primary-lighter;
+                }
+                &.non-select{
+                    background-color: transparent;
+                    cursor: default;
                 }
             }
         }

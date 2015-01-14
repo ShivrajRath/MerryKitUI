@@ -1,4 +1,4 @@
-### Screens Pending
+### Elements Pending
 * Homepage
 * Offers/deals
 * User
@@ -10,6 +10,19 @@
 * Payment confirmation
 * Review and rating section in product detail
 * Navigation section with product filters
+* Login
+
+### Elements Done
+* Primary Header
+* Ad header
+* Default Navigation
+* Product list
+* Product detail
+* Cart
+* Checkout
+    * Address
+    * Order overview
+    * Payment
 
 
 ### General Principles

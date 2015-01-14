@@ -804,13 +804,13 @@ All global classes for colors
 }
 .mkit .mkit-head .ad-header {
   line-height: 40px;
-  background-color: #aab2bd;
+  background-color: #aae1f4;
 }
 .mkit .mkit-head .ad-header .deal {
-  color: #ffffff;
+  color: #000000;
 }
 .mkit .mkit-head .ad-header .deal a {
-  color: #ffffff;
+  color: #000000;
   padding: 0 40px;
 }
 .mkit .navlink-section nav div,
@@ -826,6 +826,11 @@ All global classes for colors
 .mkit .navlink-section nav div.selected,
 .mkit .navlink-section nav small.selected {
   background-color: #aae1f4;
+}
+.mkit .navlink-section nav div.non-select,
+.mkit .navlink-section nav small.non-select {
+  background-color: transparent;
+  cursor: default;
 }
 .mkit .product-list-section {
   background-color: #ffffff;

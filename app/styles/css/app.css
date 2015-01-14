@@ -813,6 +813,9 @@ All global classes for colors
   color: #000000;
   padding: 0 40px;
 }
+.mkit .navlink-section {
+  overflow: scroll;
+}
 .mkit .navlink-section nav div,
 .mkit .navlink-section nav small {
   padding: 10px 0 10px 19.64285714%;

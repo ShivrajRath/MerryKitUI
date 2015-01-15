@@ -835,7 +835,12 @@ All global classes for colors
   background-color: transparent;
   cursor: default;
 }
-.mkit .product-list-section {
+.mkit .navlink-section nav div label,
+.mkit .navlink-section nav small label {
+  font-weight: normal;
+}
+.mkit .product-list-section,
+.mkit .user-section {
   background-color: #ffffff;
   -webkit-box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
   -moz-box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
@@ -844,20 +849,40 @@ All global classes for colors
   cursor: pointer;
   overflow: scroll;
 }
-.mkit .product-list-section .sort-product-list {
+.mkit .product-list-section .sort-product-list,
+.mkit .user-section .sort-product-list {
   height: 24px;
   font-size: 12px;
 }
-.mkit .product-list-section .product-summary {
+.mkit .product-list-section .product-summary,
+.mkit .user-section .product-summary {
   padding: 15px;
   border-bottom: 1px solid #e6e9ed;
 }
-.mkit .product-list-section .product-summary:first-child {
+.mkit .product-list-section .product-summary:first-child,
+.mkit .user-section .product-summary:first-child {
   padding: 0 15px 15px 15px;
 }
-.mkit .product-list-section .product-summary.selected {
+.mkit .product-list-section .product-summary.selected,
+.mkit .user-section .product-summary.selected {
   border-left: 7px solid #3bafda;
   margin-left: -15px;
+}
+.mkit .product-list-section .user-section-item,
+.mkit .user-section .user-section-item {
+  padding: 25px;
+  border-bottom: 1px solid #e6e9ed;
+  margin: 0 -15px;
+  font-size: 1.2em;
+}
+.mkit .product-list-section .user-section-item.selected,
+.mkit .user-section .user-section-item.selected {
+  border-left: 7px solid #3bafda;
+  padding-left: 15px;
+}
+.mkit .product-list-section .user-section-item:hover,
+.mkit .user-section .user-section-item:hover {
+  background-color: #d7f1fa;
 }
 .mkit .main-section {
   background-color: #ffffff;

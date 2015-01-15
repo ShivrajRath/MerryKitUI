@@ -15,5 +15,5 @@ $(document).ready(function () {
 });
 
 function adjustMainScroll() {
-    $(".navlink-section,.product-list-section,.main-section").outerHeight($(".mkit").outerHeight() - $(".mkit-head").outerHeight() + 15);
+    $(".navlink-section,.product-list-section,.main-section,.user-section").outerHeight($(".mkit").outerHeight() - $(".mkit-head").outerHeight() + 15);
 }

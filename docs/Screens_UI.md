@@ -31,3 +31,4 @@
 * There will be a dropout from cart and profile
 * Navigation and list column can be expanded and collpased
 * Support till 768px (Adaptive + Javascript)
+* Add navigation animations and transitions between UIs

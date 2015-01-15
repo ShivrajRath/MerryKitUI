@@ -60,10 +60,13 @@
                     background-color: transparent;
                     cursor: default;
                 }
+                label{
+                    font-weight: normal;
+                }
             }
         }
     }
-    .product-list-section {
+    .product-list-section, .user-section {
         background-color: @white;
         .drop-shadow(0, 10px, 10px);
         border-right: 1px solid @greylight-dark;
@@ -73,7 +76,7 @@
             height: 24px;
             font-size: 12px;
         }
-        .product-summary {
+        .product-summary{
             padding: 15px;
             border-bottom: 1px solid @greylight-dark;
             &:first-child {
@@ -82,6 +85,19 @@
             &.selected{
                 border-left: 7px solid @primary-dark;
                 margin-left: -15px;   
+            }
+        }
+        .user-section-item{
+            padding: 25px;
+            border-bottom: 1px solid @greylight-dark;
+            margin: 0 -15px;
+            font-size: 1.2em;
+            &.selected{
+                border-left: 7px solid @primary-dark;
+                padding-left: 15px;
+            }
+            &:hover{
+                background-color: lighten(@primary-lighter, 10%);
             }
         }
     }

@@ -3,10 +3,11 @@
 - Option to expand and collapse product summary & navigation section
 - Pages to be added: Deals/Offers, Reviews section, rating section,
 - User (Address, Past orders, Reviews and Ratings, Profile)
-- Navigation section with filter
-- Fix the scroll issue on main section.
 - Add a back button (Perhaps in the unused header)
 - Add another header with (BACK, WISHLIST, My Reviews, My Account)
 - Split .mkit.less into smaller managable less
 - Payment confirmation (This could take to order summary page)
 - Cart - Remove and move to wishlist link
+- Ratings and reviews and orders should have pagination for long history (more than 5)
+- Use font awesome star icons for rating
+- Add more icons at places

@@ -11,6 +11,7 @@
 * Review and rating section in product detail
 * Navigation section with product filters
 * Login
+* Register
 
 ### Elements Done
 * Primary Header

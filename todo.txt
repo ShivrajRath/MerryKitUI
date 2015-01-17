@@ -12,3 +12,4 @@
 - Use font awesome star icons for rating
 - Add more icons at places
 - Checkbox and radio should be flat styled
+- Update the header to be bootstrap navbar

@@ -9,7 +9,6 @@
     * My Ratings
 * Payment confirmation
 * Review and rating section in product detail
-* Navigation section with product filters
 * Login
 * Register
 
@@ -24,6 +23,7 @@
     * Address
     * Order overview
     * Payment
+* Navigation section with product filters
 
 
 ### General Principles
